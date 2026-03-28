@@ -21,7 +21,7 @@
 #define STATUS_OCUPADO "BUSY"
 #define STATUS_INACTIVO "INACTIVE"
 /* ── Timeouts ── */
-#define INACTIVITY_TIMEOUT 60 /* segundos sin actividad → INACTIVE */
+#define INACTIVITY_TIMEOUT 20 /* segundos sin actividad → INACTIVE */
 /* ── Struct principal: siempre 1024 bytes ── */
 typedef struct {
 uint8_t command; /* 1 byte — operación a realizar */
